@@ -3,27 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mecánica Automotriz Roanci</title>
+    <title>Mecánica Automotriz Roanci | Taller Automotriz en San Martín de Porres</title>
 
+    <meta name="description" content="Mecánica Automotriz Roanci en San Martín de Porres. Mantenimiento, diagnóstico computarizado, frenos, suspensión, electricidad automotriz, planchado y pintura.">
+    <meta name="keywords" content="mecánica automotriz roanci, taller automotriz san martin de porres, mecánico en lima, mantenimiento vehicular, diagnóstico computarizado, frenos, suspensión">
+    <meta name="author" content="Mecánica Automotriz Roanci">
+
+    <meta property="og:title" content="Mecánica Automotriz Roanci">
+    <meta property="og:description" content="Tu vehículo en manos de especialistas. Solicita tu cotización por WhatsApp.">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
 
 <header class="hero">
-    <nav class="navbar navbar-expand-lg navbar-dark container py-4">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container">
         <a class="navbar-brand d-flex align-items-center gap-2" href="#">
             <img src="img/logo.png" alt="Logo Roanci" class="logo">
             <span>Mecánica Automotriz Roanci</span>
         </a>
 
-        <div class="ms-auto menu">
-            <a href="#servicios">Servicios</a>
-            <a href="#galeria">Trabajos</a>
-            <a href="#ubicacion">Ubicación</a>
-            <a href="#contacto" class="btn btn-warning">Cotizar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuRoanci">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuRoanci">
+            <div class="navbar-nav ms-auto align-items-lg-center">
+                <a class="nav-link" href="#servicios">Servicios</a>
+                <a class="nav-link" href="#galeria">Trabajos</a>
+                <a class="nav-link" href="#ubicacion">Ubicación</a>
+                <a class="btn btn-warning ms-lg-3" href="#contacto">Cotizar</a>
+            </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <div class="container hero-content">
         <h1>Tu vehículo en manos de especialistas</h1>
@@ -312,6 +332,7 @@
     WhatsApp
 </a>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
