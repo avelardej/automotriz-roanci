@@ -7,6 +7,28 @@
     --text: #334155;
 }
 
+
+.back-to-top {
+    position: fixed;
+    right: 24px;
+    bottom: 88px;
+    width: 48px;
+    height: 48px;
+    background: #111827;
+    color: white;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 998;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+.back-to-top.show {
+    display: flex;
+}
+
 * {
     margin: 0;
     padding: 0;
